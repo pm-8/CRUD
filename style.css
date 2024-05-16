@@ -1,0 +1,54 @@
+body{
+    background-image: url(./bab729318537ad2afef6eb4a7db4647e.gif);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_fields{
+    margin:2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 1vh 3vh;
+    background-color: rgba(7, 1, 16, 0.619);
+    border-radius: 3vh;
+}
+.input_fields h1{
+    color: white;
+}
+.input_fields button{
+    background-color: rgb(41, 133, 49);
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10vh;
+}
+.user{
+    background-color: beige;
+    padding: 3vh;
+    border-radius: 3vh;
+    font-weight: 600;
+}
+.edit{
+    background-color: rgb(66, 66, 190);
+    outline: none;
+    border: none;
+    color: white;
+}
+.delete{
+    background-color: rgb(217, 10, 10);
+    outline: none;
+    border: none;
+    color: white;
+}
