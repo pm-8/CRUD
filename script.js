@@ -1,3 +1,5 @@
+const a = 2;
+const b = 3;
 const input_box_name = document.getElementById("ipb");
 const input_box_roll = document.getElementById("sch");
 const input_box_branch = document.getElementById("brc"); 
